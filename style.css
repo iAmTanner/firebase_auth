@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 12px;
+    padding: 12px;
+    display: block;
+}
+
+.my_input {
+    border-width: 0;
+    border-bottom-width: 1px;
+    width: 80%;
+    margin: 12px 4px;
+    padding: 4px 4px;
+    font-size: 14px;
+}
+
+.my_input:focus {
+    outline: none;
+}
+
+.btn_color_1 {
+  background-color: #fa5a5a;
+  color: white;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #fa5a5a;
+}
+
+.btn_color_2 {
+  background-color: white;
+  color: #fa5a5a;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #fa5a5a;
+}
+
+.mybutton {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  position: relative;
+  padding: 12px 18px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 12px;
+  box-shadow: 2px 2px 8px #aaa;
+}
+
+.btn_color_1:hover {
+    background-color: #fd3232;
+}
+
+.btn_color_2:hover {
+    box-shadow: 0 0 #ff4c4b; 
+    background-color: #e3e3e3;
+}
+
+.btn_color_1:active {
+    background-color: #ff4c4b;
+}
+
+.mybutton:focus {
+    outline: 0;
+}
+
+#logout_button {
+    display: none;
+}
+
+#click_container {
+    border-style: solid;
+    border-width: 0.5px;
+    border-color: #ccc;
+}

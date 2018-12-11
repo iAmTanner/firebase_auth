@@ -1,0 +1,31 @@
+<!doctype html>
+<html> 
+    
+<head>
+    <title>User Login</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="https://www.gstatic.com/firebasejs/5.7.0/firebase.js"></script>
+    
+</head>
+        
+<body>  
+    <div class="container" id="auth_container">
+        <input type="text" id="email_text" class="my_input" placeholder="Email">
+        <input type="password" id="pass_text" class="my_input" placeholder="Password">
+        <div id="btn_container">
+            <button id="login_button" class="mybutton btn_color_1">Log In</button>
+            <button id="signup_button" class="mybutton btn_color_2">Sign Up</button>
+            <button id="logout_button" class="mybutton btn_color_1">Log Out</button>
+        </div>
+    </div>
+    
+    <div class="container" id="click_container">
+        <div id="welcome_container">Welcome, <span id="welcome_value">0</span>
+            <div style="display: block; padding: 12px 4px">Score: <span id="score_value"></div>
+            <button id="clickme_button" class="mybutton btn_color_2">Click Me!</button>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+      
+</html>
